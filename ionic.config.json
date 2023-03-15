@@ -1,0 +1,7 @@
+{
+  "name": "forjaes app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
