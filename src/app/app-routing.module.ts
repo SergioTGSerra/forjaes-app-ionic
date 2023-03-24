@@ -38,6 +38,10 @@ const routes: Routes = [
     path: 'pesonalidades',
     loadChildren: () => import('./pesonalidades/pesonalidades.module').then( m => m.PesonalidadesPageModule)
   },
+  {
+    path: 'caracterizacao',
+    loadChildren: () => import('./caracterizacao/caracterizacao.module').then( m => m.CaracterizacaoPageModule)
+  },
 
 ];
 
