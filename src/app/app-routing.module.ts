@@ -18,6 +18,10 @@ const routes: Routes = [
     path: 'pontos-interesse',
     loadChildren: () => import('./pontos-interesse/pontos-interesse.module').then( m => m.PontosInteressePageModule)
   },
+  {
+    path: 'gastronomia',
+    loadChildren: () => import('./gastronomia/gastronomia.module').then( m => m.GastronomiaPageModule)
+  },
 
 ];
 
