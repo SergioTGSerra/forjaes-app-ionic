@@ -26,6 +26,14 @@ const routes: Routes = [
     path: 'alojamento',
     loadChildren: () => import('./alojamento/alojamento.module').then( m => m.AlojamentoPageModule)
   },
+  {
+    path: 'clube',
+    loadChildren: () => import('./clube/clube.module').then( m => m.ClubePageModule)
+  },
+  {
+    path: 'curiosidades',
+    loadChildren: () => import('./curiosidades/curiosidades.module').then( m => m.CuriosidadesPageModule)
+  },
 
 ];
 
