@@ -22,6 +22,10 @@ const routes: Routes = [
     path: 'gastronomia',
     loadChildren: () => import('./gastronomia/gastronomia.module').then( m => m.GastronomiaPageModule)
   },
+  {
+    path: 'alojamento',
+    loadChildren: () => import('./alojamento/alojamento.module').then( m => m.AlojamentoPageModule)
+  },
 
 ];
 
